@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Quick fix to the theme
+        run: sed -i 's/gt/ge/' themes/ramium/layouts/partials/index/section-bullet.html
+
       - name: Build
         run: hugo --minify
 
