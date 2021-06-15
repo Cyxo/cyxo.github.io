@@ -1,8 +1,8 @@
-baseURL = "https://cyxo.github.io/"
+baseURL = "https://blog.cyxo.cf/"
 #CanonifyURLs=true
 
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cyxo's Tech Blog"
 theme = "ramium"
 
 disqusShortname = ""
