@@ -8,4 +8,4 @@ url: "/author/"
 image: "/image/profile.png"
 ---
 
-I am John Doe. And I can confirm that this is the best theme ever!
+I'm Cyxo, a :flag_fr: CTF player and cybersecurity students. I also enjoy many tech subjects, especially programming, and creating music.
