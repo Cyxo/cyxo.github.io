@@ -1,7 +1,7 @@
 ---
 title: "THCon21 - Good old friend"
 date: 2021-06-14T16:29:02+02:00
-draft: true
+draft: false
 tags: [reverse engineering, android]
 # image: "/image/blog-pic.jpg"
 description: "An Android reverse engineering challenge from THCon21"

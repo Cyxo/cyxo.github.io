@@ -1,7 +1,7 @@
 ---
 title: "THCon21 - ELF x64 - BaseJumper CrackMe"
 date: 2021-06-14T16:29:01+02:00
-draft: true
+draft: false
 tags: [reverse engineering]
 # image: "/image/blog-pic.jpg"
 description: "An ELF x64 reverse engineering challenge from THCon21"

@@ -1,7 +1,7 @@
 ---
 title: "THCon21 - Clairvoyance"
 date: 2021-06-14T16:29:06+02:00
-draft: true
+draft: false
 tags: [pwn]
 # image: "/image/blog-pic.jpg"
 description: "A format string pwn challenge from THCon21"

@@ -1,7 +1,7 @@
 ---
 title: "THCon21 - Blacklisted"
 date: 2021-06-14T16:29:05+02:00
-draft: true
+draft: false
 tags: [pwn]
 # image: "/image/blog-pic.jpg"
 description: "A shellcoding challenge from THCon21"

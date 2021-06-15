@@ -1,7 +1,7 @@
 ---
 title: "THCon21 - TUR-ROX-Z"
 date: 2021-06-14T16:29:03+02:00
-draft: true
+draft: false
 tags: [reverse engineering, video game]
 # image: "/image/blog-pic.jpg"
 description: "A video game reverse engineering challenge from THCon21"
