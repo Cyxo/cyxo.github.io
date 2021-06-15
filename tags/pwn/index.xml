@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pwn on My New Hugo Site</title><link>https://cyxo.github.io/tags/pwn/</link><description>Recent content in pwn on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 16:29:06 +0200</lastBuildDate><atom:link href="https://cyxo.github.io/tags/pwn/index.xml" rel="self" type="application/rss+xml"/><item><title>THCon21 - Clairvoyance</title><link>https://cyxo.github.io/thcon-2021-ctf-write-ups/clairvoyance/</link><pubDate>Mon, 14 Jun 2021 16:29:06 +0200</pubDate><guid>https://cyxo.github.io/thcon-2021-ctf-write-ups/clairvoyance/</guid><description>THCon21 - Blacklisted Go back to write-ups list
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pwn on Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/tags/pwn/</link><description>Recent content in pwn on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 16:29:06 +0200</lastBuildDate><atom:link href="https://blog.cyxo.cf/tags/pwn/index.xml" rel="self" type="application/rss+xml"/><item><title>THCon21 - Clairvoyance</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</link><pubDate>Mon, 14 Jun 2021 16:29:06 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</guid><description>THCon21 - Blacklisted Go back to write-ups list
 Category: Intro
 Creator: Voydstack
 Description:
 Do you have enough clairvoyance to read the flag inside my mind ?
 Attachments:
-clairvoyance Analysing the binary The attachment is an ELF x64 binary.</description></item><item><title>THCon21 - Blacklisted</title><link>https://cyxo.github.io/thcon-2021-ctf-write-ups/blacklisted/</link><pubDate>Mon, 14 Jun 2021 16:29:05 +0200</pubDate><guid>https://cyxo.github.io/thcon-2021-ctf-write-ups/blacklisted/</guid><description>THCon21 - Blacklisted Go back to write-ups list
+clairvoyance Analysing the binary The attachment is an ELF x64 binary.</description></item><item><title>THCon21 - Blacklisted</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</link><pubDate>Mon, 14 Jun 2021 16:29:05 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</guid><description>THCon21 - Blacklisted Go back to write-ups list
 Category: Intro
 Creator: Voydstack
 Description:
