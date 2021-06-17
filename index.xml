@@ -1,36 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/</link><description>Recent content on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Mar 2020 04:52:30 +0600</lastBuildDate><atom:link href="https://blog.cyxo.cf/index.xml" rel="self" type="application/rss+xml"/><item><title>THCon21 - Rsa internal attacker</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</guid><description>THCon21 - Blacklisted Go back to write-ups list
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/</link><description>Recent content on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Mar 2020 04:52:30 +0600</lastBuildDate><atom:link href="https://blog.cyxo.cf/index.xml" rel="self" type="application/rss+xml"/><item><title>THCon21 - Rsa internal attacker</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</guid><description>Go back to write-ups list
 Category: Cryptography
 Creator: Nico
 Description:
-I&amp;rsquo;ve found this rsa implementation, it is quite strange. I have a public/private key and I&amp;rsquo;ve also intercepted a ciphertext but infortunately it was not for me, so I can&amp;rsquo;t read it.</description></item><item><title>THCon21 - Clairvoyance</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</link><pubDate>Tue, 15 Jun 2021 16:29:06 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</guid><description>THCon21 - Blacklisted Go back to write-ups list
+I&amp;rsquo;ve found this rsa implementation, it is quite strange. I have a public/private key and I&amp;rsquo;ve also intercepted a ciphertext but infortunately it was not for me, so I can&amp;rsquo;t read it.</description></item><item><title>THCon21 - Clairvoyance</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</link><pubDate>Tue, 15 Jun 2021 16:29:06 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/clairvoyance/</guid><description>Go back to write-ups list
 Category: Intro
 Creator: Voydstack
 Description:
 Do you have enough clairvoyance to read the flag inside my mind ?
 Attachments:
-clairvoyance Analysing the binary The attachment is an ELF x64 binary.</description></item><item><title>THCon21 - Blacklisted</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</link><pubDate>Mon, 14 Jun 2021 16:29:05 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</guid><description>THCon21 - Blacklisted Go back to write-ups list
+clairvoyance Analysing the binary The attachment is an ELF x64 binary. Again, I opened it in IDA and went to the main function.</description></item><item><title>THCon21 - Blacklisted</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</link><pubDate>Mon, 14 Jun 2021 16:29:05 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/blacklisted/</guid><description>Go back to write-ups list
 Category: Intro
 Creator: Voydstack
 Description:
 Don&amp;rsquo;t say the magic word !
 Attachments:
-blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>THCon21 - TUR-ROX-Y Go back to write-ups list
+blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: Réchèr
 Description:
 A journey in Turing-approxi-complete video games, chapter &amp;ldquo;Y&amp;rdquo;.
-&amp;ldquo;ZZT&amp;rdquo; ? What is that strange file extension ? It may be something old. If it&amp;rsquo;s old, there is a MUSEUM about it.</description></item><item><title>THCon21 - TUR-ROX-Z</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-z/</link><pubDate>Mon, 14 Jun 2021 16:29:03 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-z/</guid><description>THCon21 - TUR-ROX-Z Go back to write-ups list
+&amp;ldquo;ZZT&amp;rdquo; ? What is that strange file extension ? It may be something old. If it&amp;rsquo;s old, there is a MUSEUM about it.</description></item><item><title>THCon21 - TUR-ROX-Z</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-z/</link><pubDate>Mon, 14 Jun 2021 16:29:03 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-z/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: Réchèr
 Description:
 A journey in Turing-approxi-complete video games, chapter &amp;ldquo;Z&amp;rdquo;.
-&amp;ldquo;ZZT&amp;rdquo; ? What is that strange file extension ? It may be something old. If it&amp;rsquo;s old, there is a MUSEUM about it.</description></item><item><title>THCon21 - Good old friend</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/good-old-friend/</link><pubDate>Mon, 14 Jun 2021 16:29:02 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/good-old-friend/</guid><description>THCon21 - Good old friend Go back to write-ups list
+&amp;ldquo;ZZT&amp;rdquo; ? What is that strange file extension ? It may be something old. If it&amp;rsquo;s old, there is a MUSEUM about it.</description></item><item><title>THCon21 - Good old friend</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/good-old-friend/</link><pubDate>Mon, 14 Jun 2021 16:29:02 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/good-old-friend/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: zephyr
 Description:
 Good old friend
 Attachments:
-goodOldFriend.apk Analysing the APK Android reverse engineering is by far my favorite subject. So let&amp;rsquo;s dive right into the analysis.</description></item><item><title>THCon21 - ELF x64 - BaseJumper CrackMe</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/basejumper-crackme/</link><pubDate>Mon, 14 Jun 2021 16:29:01 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/basejumper-crackme/</guid><description>THCon21 - ELF x64 - BaseJumper CrackMe Go back to write-ups list
+goodOldFriend.apk Analysing the APK Android reverse engineering is by far my favorite subject. So let&amp;rsquo;s dive right into the analysis.
+I opened the APK file in a tool called JADX (the GUI version because I&amp;rsquo;m a fake hacker who doesn&amp;rsquo;t use a terminal and a keyboard only) and searched for a class that would be called MainActivity (which was very likely to be in the party.</description></item><item><title>THCon21 - ELF x64 - BaseJumper CrackMe</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/basejumper-crackme/</link><pubDate>Mon, 14 Jun 2021 16:29:01 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/basejumper-crackme/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: Podalirius
 Description:
