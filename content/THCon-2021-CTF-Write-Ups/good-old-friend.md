@@ -9,8 +9,6 @@ showDate: true          # to enable/disable showing dates
 math: true              # to enable showing equations (katex)
 ---
 
-# THCon21 - Good old friend
-
 [Go back to write-ups list](../)
 
 > **Category:** Reverse

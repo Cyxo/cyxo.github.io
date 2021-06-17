@@ -9,8 +9,6 @@ showDate: true          # to enable/disable showing dates
 math: true              # to enable showing equations (katex)
 ---
 
-# THCon21 - Blacklisted
-
 [Go back to write-ups list](../)
 
 > **Category:** Intro

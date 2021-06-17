@@ -9,8 +9,6 @@ showDate: true          # to enable/disable showing dates
 math: true              # to enable showing equations (katex)
 ---
 
-# THCon21 - Blacklisted
-
 [Go back to write-ups list](../)
 
 > **Category:** Cryptography
@@ -103,3 +101,5 @@ This gives us the following result:
 ![Challenge solution](/image/thcon21/common_modulus.png)
 
 The flag mentions "common modulus". The method I used in this challenge might not be the usual one for common modulus challenges (as far as I remember, I solved common modulus challenges in the past, and I don't recall using a weird square root function), but the maths are correct so it solves the problem anyway :man_shrugging:
+
+[Go back to write-ups list](../)
