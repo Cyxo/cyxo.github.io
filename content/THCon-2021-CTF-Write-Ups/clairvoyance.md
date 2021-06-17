@@ -1,6 +1,6 @@
 ---
 title: "THCon21 - Clairvoyance"
-date: 2021-06-14T16:29:06+02:00
+date: 2021-06-15T16:29:06+02:00
 draft: false
 tags: [pwn]
 # image: "/image/blog-pic.jpg"
