@@ -10,4 +10,4 @@ Creator: Voydstack
 Description:
 Don&amp;rsquo;t say the magic word !
 Attachments:
-blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function.</description></item></channel></rss>
+blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function. It basically calls check_blacklist on the user input, and if it returns 0,the user input will be executed as a shellcode.</description></item></channel></rss>

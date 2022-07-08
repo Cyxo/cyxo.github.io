@@ -14,7 +14,7 @@ Creator: Voydstack
 Description:
 Don&amp;rsquo;t say the magic word !
 Attachments:
-blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>Go back to write-ups list
+blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function. It basically calls check_blacklist on the user input, and if it returns 0,the user input will be executed as a shellcode.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: Réchèr
 Description:

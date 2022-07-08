@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/</link><description>Recent content on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Mar 2020 04:52:30 +0600</lastBuildDate><atom:link href="https://blog.cyxo.cf/index.xml" rel="self" type="application/rss+xml"/><item><title>Discord's Image Preview - A boon for Phishing Attacks</title><link>https://blog.cyxo.cf/misc/discord-image-cache/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/misc/discord-image-cache/</guid><description>Intro Phishing attacks on Discord are a big trend right now and hacked accounts sending fake Free Nitro links have become part of the landscape of Discord servers.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/</link><description>Recent content on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Mar 2020 04:52:30 +0600</lastBuildDate><atom:link href="https://blog.cyxo.cf/index.xml" rel="self" type="application/rss+xml"/><item><title>🇫🇷 PWNME - Reverser don't like Rustacer</title><link>https://blog.cyxo.cf/pwnme-2022/rustacer/</link><pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/rustacer/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Reverse
+Creator: Bryton
+Description:
+Simpler than it seems
+Flag format: PWNME{flag}
+Attachments:
+Reverser.exe Ce programme est un crack-me ordinaire où l&amp;rsquo;on doit entrer un mot de passe pour obtenir le flag.</description></item><item><title>🇫🇷 PWNME - PimpMyBicycle</title><link>https://blog.cyxo.cf/pwnme-2022/pimp-my-bicycle/</link><pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/pimp-my-bicycle/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Web
+Creator: Eteck
+Description:
+Your friend just had an idea: allow everyone to create the bike of their dream ! He asks you to verify if his website is secure, since you&amp;rsquo;re the best pentester he knows.</description></item><item><title>🇫🇷 PWNME - Attack Equation Solving</title><link>https://blog.cyxo.cf/pwnme-2022/attack-equation-solving/</link><pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/attack-equation-solving/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Reverse
+Creator: Bryton
+Description:
+I love virGIN tonic
+Vous avez accès au code compilé du site web
+Le flag est sous le format suivant: PWNME{flag}</description></item><item><title>FakeCTF - Malware 0x1</title><link>https://blog.cyxo.cf/fakectf-write-ups/malware-0x1/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/fakectf-write-ups/malware-0x1/</guid><description>Go back to write-ups list
+Category: Reverse
+Creator: HømardBøy
+Attachments:
+FakeBonk_Cashout_IT_Department_2022.odt This challenge gives us an ODT file (that I didn&amp;rsquo;t open, but you can do it at your own risk). Since it was in the Reverse category, we can easily guess we will have to reverse a macro inside the document.</description></item><item><title>Discord's Image Preview - A boon for Phishing Attacks</title><link>https://blog.cyxo.cf/misc/discord-image-cache/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/misc/discord-image-cache/</guid><description>Intro Phishing attacks on Discord are a big trend right now and hacked accounts sending fake Free Nitro links have become part of the landscape of Discord servers.
 Fortunately people are starting to be more aware of phishing attacks, and the hackers start to lack realistic domain names for their phishing attacks (and thus we get links like https://discqrde.</description></item><item><title>THCon21 - Rsa internal attacker</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/rsa-internal-attacker/</guid><description>Go back to write-ups list
 Category: Cryptography
 Creator: Nico
@@ -15,7 +39,7 @@ Creator: Voydstack
 Description:
 Don&amp;rsquo;t say the magic word !
 Attachments:
-blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>Go back to write-ups list
+blacklisted Analysing the binary The attachment is an ELF x64 binary. I opened it in IDA and went to the main function. It basically calls check_blacklist on the user input, and if it returns 0,the user input will be executed as a shellcode.</description></item><item><title>THCon21 - TUR-ROX-Y</title><link>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</link><pubDate>Mon, 14 Jun 2021 16:29:04 +0200</pubDate><guid>https://blog.cyxo.cf/thcon-2021-ctf-write-ups/tur-rox-y/</guid><description>Go back to write-ups list
 Category: Reverse
 Creator: Réchèr
 Description:

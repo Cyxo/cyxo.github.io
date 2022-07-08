@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PWNME-2022 on Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/pwnme-2022/</link><description>Recent content in PWNME-2022 on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cyxo.cf/pwnme-2022/index.xml" rel="self" type="application/rss+xml"/><item><title>🇫🇷 PWNME - Reverser don't like Rustacer</title><link>https://blog.cyxo.cf/pwnme-2022/rustacer/</link><pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/rustacer/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Reverse
+Creator: Bryton
+Description:
+Simpler than it seems
+Flag format: PWNME{flag}
+Attachments:
+Reverser.exe Ce programme est un crack-me ordinaire où l&amp;rsquo;on doit entrer un mot de passe pour obtenir le flag.</description></item><item><title>🇫🇷 PWNME - PimpMyBicycle</title><link>https://blog.cyxo.cf/pwnme-2022/pimp-my-bicycle/</link><pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/pimp-my-bicycle/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Web
+Creator: Eteck
+Description:
+Your friend just had an idea: allow everyone to create the bike of their dream ! He asks you to verify if his website is secure, since you&amp;rsquo;re the best pentester he knows.</description></item><item><title>🇫🇷 PWNME - Attack Equation Solving</title><link>https://blog.cyxo.cf/pwnme-2022/attack-equation-solving/</link><pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/pwnme-2022/attack-equation-solving/</guid><description>Go back to write-ups list
+This write-up is in French because it&amp;rsquo;s a French CTF, sowwy
+Category: Reverse
+Creator: Bryton
+Description:
+I love virGIN tonic
+Vous avez accès au code compilé du site web
+Le flag est sous le format suivant: PWNME{flag}</description></item></channel></rss>
