@@ -42,9 +42,9 @@ Sans plus attendre, j'ai ouvert le binaire dans mon désassembleur préféré. L
 
 ![C'est du Go !](/image/pwnme22/aes_main.png)
 
-On peut également à partir de ce nom de fonction se renseigner sur le fonctionnement [Gin Gonic](https://github.com/gin-gonic/gin), une librairie pour créer un serveur web en Go. On peut notamment y voir que l'appelle à la fonction `RouterGroup.handle` prend en arguments une méthode HTTP (par exemple `"POST"`), un chemin dans l'URL (par exemple `"/verify"`) et une ou plusieurs fonctions appelées "handlers" qui vont être exécuté lorsqu'on se rend sur cette URL.
+On peut également à partir de ce nom de fonction se renseigner sur le fonctionnement [Gin Gonic](https://github.com/gin-gonic/gin), une librairie pour créer un serveur web en Go. On peut notamment y voir que l'appelle à la fonction `RouterGroup.handle` prend en arguments une méthode HTTP (par exemple `"POST"`), un chemin dans l'URL (par exemple `"/verify"`) et une ou plusieurs fonctions appelées "handlers" qui vont être exécutées lorsqu'on se rend sur cette URL.
 
-L'assembleur généré par Go est vraiment simple et on peut facilement trouvé les 3 arguments qui lui sont passés. Et comme cet endpoint `/verify` nous permet de vérifier notre flag, on va s'intéresser à son handler (ici sous le nom de `off_994D18`).
+L'assembleur généré par Go est vraiment simple et on peut facilement trouver les 3 arguments qui lui sont passés. Et comme cet endpoint `/verify` nous permet de vérifier notre flag, on va s'intéresser à son handler (ici sous le nom de `off_994D18`).
 
 ![C'est du Go !](/image/pwnme22/aes_handler.png)
 
