@@ -32,11 +32,15 @@ math: true              # to enable showing equations (katex)
 > **Attachments:**
 > - [attack_solving.rar](/files/pwnme22/attack_solving.rar)
 
+## Introduction
+
 *Je sais que la solution la plus simple était en dynamique, mais comme mon debugger ne fonctionnait pas, je vous propose une solution en statique.*
 
 Ce challenge est assez original puisque pour commencer il nous présente une interface web. Le binaire à reverse est donc le serveur web de ce site.
 
 ![Page web](/image/pwnme22/aes_web.png)
+
+## Reverse statique
 
 Sans plus attendre, j'ai ouvert le binaire dans mon désassembleur préféré. La première chose qu'on remarque c'est que le programme nous emmène à une fonction qui s'appelle `main_main` (ou `main.main` selon le désassembleur). On peut donc déjà identifier qu'il s'agit d'un binaire écrit en Go (c'est la sépcificité du Go). Un peu plus loin, on a la confirmation avec l'appel à une fonction comme `github_com_gin_gonic_gin___RouterGroup__handle` par exemple. En effet, les modules Go sont des repository Git et souvent distribués via Github, donc il n'est pas rare de retrouver "github.com" dans les programmes en Go.
 
@@ -56,7 +60,11 @@ Une première partie appelle la fonction `main.GetAESKey` dont voici l'algorithm
 
 Concrètement, on charge un tableau de bytes (à partir des trois nombres hexadécimaux qu'on voit ici) en mémoire, puis sur chaque byte on soustrait 32 et on effectue un xor avec l'index de la boucle. Enfin, le hash md5 de ce tableau est calculé et l'hexadécimal de ce hash sera retourné comme clé.
 
-La suite de `IsValidCode` charge une chaîne hexadécimale qui est décodée et déchiffrée en AES ECB (d'où le nom **A**ttack **E**quation **S**olving, j'ai mis du temps à comprendre). Si on veut faire un équivalent en Python de la fonction `IsValidCode`, on a donc :
+La suite de `IsValidCode` charge une chaîne hexadécimale qui est décodée et déchiffrée en AES ECB (d'où le nom **A**ttack **E**quation **S**olving, j'ai mis du temps à comprendre).
+
+## Reproduction en Python
+
+Si on veut faire un équivalent en Python de la fonction `IsValidCode`, on a donc :
 
 ```py
 from binascii import unhexlify

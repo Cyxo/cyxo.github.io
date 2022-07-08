@@ -25,6 +25,8 @@ math: true              # to enable showing equations (katex)
 >
 > *note: admin doesn't have access to the internet ! He is behind a very restrictive firewall, and he can only be on his own website*
 
+## Fonctionnement du site web
+
 Je vais sauter la partie où on crée un compte pour aller directement à l'interface intéressante : l'interface où l'on peut pimper notre vélo !
 
 ![Page web](/image/pwnme22/pmb_intro.png)
@@ -59,6 +61,8 @@ function edit() {
 }
 ```
 
+## Recherche de XSS
+
 Comme on peut s'en douter, les paramètres de cette classe `CustomElement` qui sont sauvegardés (notamment la couleur) seront ensuite réinjectés dans la page lorsque que l'on charge un vélo. Pour vérifier cette hypothèse, j'ai tenté d'injecter du HTML dans un des attribut couleur, puis de sauvegarder le vélo.
 
 ```js
@@ -69,7 +73,9 @@ Et bingo ! Le texte est apparu à la place de la roue !
 
 ![DOM based](/image/pwnme22/pmb_dom.png)
 
-Si on met une balise `<script>` à la place du `<span>`, on peut facilement deviner que le script sera exécuté. Il en est de même sur la page de preview du vélo que l'admin consulte lorsqu'on lui soumet un vélo.
+Si on met une balise `<script>` à la place du `<span>`, on peut facilement deviner que le script sera exécuté. Il en est de même sur la page de preview du vélo que l'admin consulte lorsqu'on lui soumet un vélo. C'est ce qu'on appelle une XSS DOM-based.
+
+## Création du payload
 
 Réfléchissons maintenant à un script qui pourrait récupérer le cookie de session de l'admin. Beaucoup se sont fait avoir, mais j'ai lu la description donc je sais qu'on ne peux pas l'envoyer à un site externe. Par contre, on peut probablement demander à l'admin d'éditer un de nos vélos. J'ai donc récupérer le JSON qui est envoyé lorsqu'on sauvegarde un vélo, et j'ai écrit un script pour y intégrer le cookie de session :
 

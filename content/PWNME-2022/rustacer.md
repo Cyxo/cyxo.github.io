@@ -26,11 +26,15 @@ math: true              # to enable showing equations (katex)
 > **Attachments:**
 > - [Reverser.exe](/files/pwnme22/Reverser.exe)
 
+## Introduction
+
 Ce programme est un crack-me ordinaire où l'on doit entrer un mot de passe pour obtenir le flag.
 
 ![Rustacer usage](/image/pwnme22/rust_usage.png)
 
 Cependant, lorsqu'on l'ouvre dans un désassembleur, on constate qu'en plus d'être écrit en Rust (comme indiqué par le titre du chall), le programme a été compilé sans les symboles : impossible donc de trouver main ou encore le nom d'une fonction qui vérifie notre mot de passe. On va donc devoir ruser 😏
+
+## Recherche d'éléments intéressants
 
 J'ai commencé par chercher l'adresse de la chaîne de caractères `"Usage: [...]"` ainsi que son utilisation dans le binaire :
 
@@ -43,6 +47,8 @@ Cela nous mène vers une grosse fonction, qui d'ailleurs n'est pas bien analysé
 On sait donc que la longueur doit être de 12. Puis une deuxième partie un peu plus longue qui exécute une fonction de vérification et qui en fonction du résultat affiche "Incorrect flag" ou appelle une autre fonction qui calcule puis affiche le flag.
 
 ![Comparison](/image/pwnme22/rust_cmp.png)
+
+## Solution
 
 Attendez... calcule puis affiche le flag ? Le plus simple donc, plutôt que de se perdre de le dédale de fonctions sans nom, ce serait de modifier le flux d'exécution du programme pour inverser la comparaison, et ainsi passer à l'affichage du flag lorsque notre mot de passe est faux !
 
