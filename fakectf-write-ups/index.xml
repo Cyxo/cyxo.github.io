@@ -2,4 +2,8 @@
 Category: Reverse
 Creator: HømardBøy
 Attachments:
-FakeBonk_Cashout_IT_Department_2022.odt This challenge gives us an ODT file (that I didn&amp;rsquo;t open, but you can do it at your own risk). Since it was in the Reverse category, we can easily guess we will have to reverse a macro inside the document.</description></item></channel></rss>
+FakeBonk_Cashout_IT_Department_2022.odt This challenge gives us an ODT file (that I didn&amp;rsquo;t open, but you can do it at your own risk). Since it was in the Reverse category, we can easily guess we will have to reverse a macro inside the document.</description></item><item><title>FakeCTF - Shellcode 0x1</title><link>https://blog.cyxo.cf/fakectf-write-ups/shellcoding-warmup/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/fakectf-write-ups/shellcoding-warmup/</guid><description>Go back to write-ups list
+Category: Prog
+Creator: HømardBøy
+The challenge When we connect to the challenge, we are prompted to send a linux x86-64 shellcode, with a maximum length of 96 bytes.
+The description of the challenge also says we have to display the content of a file called &amp;ldquo;flag&amp;rdquo; located in the same folder as the binary.</description></item></channel></rss>

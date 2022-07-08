@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>programming on Cyxo's Tech Blog</title><link>https://blog.cyxo.cf/tags/programming/</link><description>Recent content in programming on Cyxo's Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cyxo.cf/tags/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>FakeCTF - Shellcode 0x1</title><link>https://blog.cyxo.cf/fakectf-write-ups/shellcoding-warmup/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://blog.cyxo.cf/fakectf-write-ups/shellcoding-warmup/</guid><description>Go back to write-ups list
+Category: Prog
+Creator: HømardBøy
+The challenge When we connect to the challenge, we are prompted to send a linux x86-64 shellcode, with a maximum length of 96 bytes.
+The description of the challenge also says we have to display the content of a file called &amp;ldquo;flag&amp;rdquo; located in the same folder as the binary.</description></item></channel></rss>
